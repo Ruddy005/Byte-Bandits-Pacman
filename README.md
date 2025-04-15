@@ -157,7 +157,6 @@ g++ Main.cpp -o pacman -lGL -lGLU -lglut
 # Step 4: Run the game
 ./pacman
 ```
-> Made with ❤ in C++. Enjoy the game and don’t get eaten!
 
 ## 🚀 Features at a Glance
 
@@ -174,4 +173,6 @@ g++ Main.cpp -o pacman -lGL -lGLU -lglut
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots 
+
+Made with ❤ in C++. Enjoy the game and don’t get eaten!
