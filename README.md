@@ -1,15 +1,64 @@
-# Byte-Bandits-Pacman
+<h1 align="center">
+  🎮 Byte-Bandits: Pac-Man Clone
+</h1>
 
-#🕹 Game Description - Pacman with OpenGL
-This is a 2D Pacman-style arcade game created using OpenGL and C++. The player controls Pacman, navigating through a maze to collect food while avoiding colorful monsters.
+<p align="center">
+  A retro-style <b>Pac-Man game</b> built with <b>C++</b>, <b>OpenGL</b>, and <b>GLUT</b>.<br>
+  Dodge ghosts, eat all the dots, and survive the maze! 🧠💥
+</p>
 
-🔧 Key Features
-Graphics: Built using OpenGL and GLUT, the game includes simple shapes for walls, food, Pacman, and monsters.
+<p align="center">
+  <img src="https://img.shields.io/badge/C++-Game-blue.svg?style=flat-square" />
+  <img src="https://img.shields.io/badge/OpenGL-Graphics-green.svg?style=flat-square" />
+  <img src="https://img.shields.io/badge/GLUT-Support-orange.svg?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Playable-brightgreen.svg?style=flat-square" />
+</p>
 
-Maze Design: Walls and obstacles are defined via coordinate vectors. The maze is drawn using glRectf with predefined borders and multiple obstacle layers (top, middle, bottom).
+---
 
-Pacman Movement: Controlled using keyboard input (WASD or arrow keys). Movement is managed using xIncrement, yIncrement, and rotation.
+## 🕹️ Game Overview
 
-Monsters: Four ghosts with unique starting positions and simple AI to move randomly or follow paths.
+> **Byte-Bandits** is a minimalist Pac-Man-style arcade game where:
+> - You guide Pac-Man 🟡
+> - Through a dangerous maze 🧱
+> - Eating food dots 🍬
+> - While avoiding four colorful monsters 👻
 
-Food Items: Small white dots scattered across the maze. When Pacman touches them, they disappear and
+It's built with **OpenGL** and **GLUT**, and coded in **C++** for a fun low-level gaming experience.
+
+---
+
+## 🔥 Features at a Glance
+
+✨ **Clean 2D Graphics** with OpenGL  
+🧠 **Monster AI** with random movement and obstacle awareness  
+🎯 **Collision Detection** using a bitmap grid  
+🕹️ **Intuitive Controls** with WASD + Spacebar  
+🍭 **Dot Eating Mechanism** + Score Tracking  
+🔁 **Replay System** to restart after losing  
+
+---
+
+## 🖥️ Requirements
+
+- ✅ C++ Compiler (e.g., Visual Studio, g++)
+- ✅ OpenGL Libraries
+- ✅ GLUT (OpenGL Utility Toolkit)
+- ✅ Windows.h *(For Windows users only)*
+
+---
+
+## ⚙️ Setup & Run Instructions
+
+```bash
+# Step 1: Clone the repository
+git clone https://github.com/yourusername/byte-bandits-pacman.git
+
+# Step 2: Navigate to project folder
+cd byte-bandits-pacman
+
+# Step 3: Compile the code
+g++ Main.cpp -o pacman -lGL -lGLU -lglut
+
+# Step 4: Run the game
+./pacman
