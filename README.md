@@ -1,6 +1,6 @@
 # Byte-Bandits-Pacman
 
-🕹 Game Description - Pacman with OpenGL
+#🕹 Game Description - Pacman with OpenGL
 This is a 2D Pacman-style arcade game created using OpenGL and C++. The player controls Pacman, navigating through a maze to collect food while avoiding colorful monsters.
 
 🔧 Key Features
