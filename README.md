@@ -174,7 +174,7 @@ g++ Main.cpp -o pacman -lGL -lGLU -lglut
 ---
 
 ## 📸 ScreenRecordings
-🎥 [Watch the Gameplay]((https://drive.google.com/file/d/1N5GrBC6MA0dxVx9UrFb8pOOVgX5sNvWg/view?usp=sharing))
+🎥 [Watch the Gameplay](https://drive.google.com/file/d/1N5GrBC6MA0dxVx9UrFb8pOOVgX5sNvWg/view?usp=sharing)
 
 
 Made with ❤ in C++. Enjoy the game and don’t get eaten!
